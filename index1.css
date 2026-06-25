@@ -1,0 +1,181 @@
+
+
+ body{
+    margin: 0;
+    padding: 0;
+     overflow: visible; 
+ }
+/* start style sec1 */
+   .landPage {
+     position: relative;
+     max-width: 100%;
+     max-height: 100%;
+     left: 0;
+    top: 0;
+   }
+   .qust{
+    width: 400px;
+    height: 460px;
+    position: absolute;
+    z-index: 7;
+    top: 62px;
+    left: 100px;
+    /* position: fixed; */
+    border-radius: 10px;
+     /* background-color: hsl(0, 0%, 90%);  */
+     background-color: rgba(0, 0, 0, .5);
+   }
+   @keyframes .qust{
+      0%   {background-color: red;}
+      25%  {background-color: yellow;}
+      50%  {background-color: blue;}
+      100% {background-color: green;}
+    }
+   .qust p{
+      color: #fff;
+      margin-top: 0;
+      padding: 20px;
+      background-color: rgb(17, 119, 214);
+      border-radius: 10px;
+   }
+   .qust h1{
+      color: #fff;
+       background-color: rgba(0, 0, 0, .1);
+       padding-top: 3px;
+       padding-left: 7PX;
+   }
+   .qust h2{
+      background-color: rgb(17, 119, 214);
+      width: 100%;
+      height: 10px;
+   }
+   .qust .join{
+      width: 100%;
+      height: 200px;
+      background-color: rgba(0, 0, 0, .5);
+      margin-top: -21px;
+      padding-top: -10px;
+   }
+   .qust .join h1{
+      padding-left: 20px;
+      
+   }
+   .qust p span{
+      font-size: 30px;
+   }
+   .qust form input{
+      margin: 6px;
+      padding-top: 10px;
+      /* background-color:rgb(17, 119, 214);  */
+      color: #fff;
+      font-style: #fff;
+      
+   }
+   .qust form button{
+      margin: 6px;
+      padding-left: 30px;
+      padding-right: 30PX;
+      padding-top:10px;
+      padding-bottom: 10px;
+      color: #fff;
+      background-color: rgb(17, 119, 214);
+      
+
+      
+   }
+
+   .bar{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    position: fixed;
+
+    /* background-color: hsl(0, 0%, 90%);
+     */
+     background-color: hsl(0, 0%, 90%);
+   }
+   .bar p {
+    margin-left: 100px;
+    font-size: 30px;
+    margin-top: 11px;
+   }
+   .bar p span{
+    color: rgb(17, 119, 214);
+    
+     /* transition: background-color 300ms; */
+   }
+   .layout{
+   min-width: 100%;
+   min-height: 100%;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .3);
+    transition: background-color 300ms;
+      /* background-color: hsl(0, 0%, 90%); */
+   }
+
+   
+/* end style se1 */
+/* /99999999999999999999999999999999999999999999999999999999999999999999999999 */
+/* start style sec2 */
+   /* .c{
+      width: 300px;
+      height: 400px;
+      background-color: aqua;
+      margin: 6px;
+      float: left;
+      /* margin-left: 20px; */
+   /* } */ 
+   
+   .co >div{
+    display: inline-flex;
+    width: 250px;
+    height: 400px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    margin-left: 10px;
+    border-radius: 10px;
+   
+   }
+   .co >div h1{
+      display: block;
+      margin-left: 30px;
+
+   }
+   .co >div p{
+      margin-top: 50px;
+      display: inline-block;
+      align-items: center;
+      margin-right: -30px;
+      padding-right: 2px;
+      text-align: center;
+      position: relative;
+      left: -78px;
+      top: 161px;
+      width: 100%;
+   }
+   .co .card3 .c{
+      margin: 50px -500px 16px 0px ;
+      width: 100%;
+
+   }
+   .fa-thin{
+      background-color: aquamarine;
+      font-size: large;
+      color: #ddd;
+      margin:-32px;
+   }
+   .co{
+      margin-left: 25%;
+      position: relative;
+      z-index: 100;
+      top: -490px;
+      left: -3%;
+      
+   }
+/* end style sec2 */
